@@ -1,0 +1,39 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extension_name__",
+  "description": "__MSG_extension_description__",
+  "version": "1.0",
+  "default_locale": "en",
+  "permissions": [
+    "clipboardRead"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{490ff142-bd8e-4bfd-a1aa-da0b8cf5c51e}",
+      "data_collection_permissions": {
+        "required": [
+          "none"
+        ]
+      }
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "all_frames": true,
+      "run_at": "document_start",
+      "js": [
+        "onload.js"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "assets/icon16.png",
+    "24": "assets/icon24.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}

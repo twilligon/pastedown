@@ -1,0 +1,8 @@
+{
+  "extension_name": {
+    "message": "pastedown"
+  },
+  "extension_description": {
+    "message": "Paste rich text as Markdown"
+  }
+}

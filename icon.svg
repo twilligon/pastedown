@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1000" viewBox="0 0 1000 1000">
+  <rect width="1000" height="1000" rx="160" fill="#000"/>
+  <!-- https://github.com/dcurtis/markdown-mark/blob/master/svg/markdown-mark-solid.svg -->
+  <svg x="120" y="120" width="760" height="760" viewBox="30 30 154 69">
+    <path fill="#fff" d="M50 98V59l20 25 20-25v39h20V30H90L70 55 50 30H30v68zM184 64h-20V30h-20v34h-20l30 35z"/>
+  </svg>
+</svg>
